@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11508"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <picker width="1" height="65" alignment="left" id="bky-bO-uOi">
+                            <connections>
+                                <action selector="pickerAction:" destination="AgC-eL-Hgc" id="fs7-rx-W0R"/>
+                            </connections>
+                        </picker>
+                        <switch width="1" alignment="left" title="Power" id="Fml-KL-OTg">
+                            <connections>
+                                <action selector="switchAction:" destination="AgC-eL-Hgc" id="2i0-q1-ij6"/>
+                            </connections>
+                        </switch>
+                        <button width="1" alignment="left" title="Button" id="5me-am-JVZ">
+                            <connections>
+                                <action selector="buttonAction" destination="AgC-eL-Hgc" id="mJv-Sq-Wma"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="buttonin" destination="5me-am-JVZ" id="88q-q1-ljO"/>
+                        <outlet property="picker" destination="bky-bO-uOi" id="KKs-va-rcH"/>
+                        <outlet property="switchin" destination="Fml-KL-OTg" id="QrB-B1-XKS"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="34" y="80"/>
+        </scene>
+    </scenes>
+</document>

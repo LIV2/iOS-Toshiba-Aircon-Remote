@@ -1,0 +1,19 @@
+PODS:
+  - MQTTClient (0.8.7):
+    - MQTTClient/Core (= 0.8.7)
+  - MQTTClient/Core (0.8.7):
+    - MQTTClient/Manager
+    - MQTTClient/Min
+  - MQTTClient/Manager (0.8.7):
+    - MQTTClient/Min
+  - MQTTClient/Min (0.8.7)
+
+DEPENDENCIES:
+  - MQTTClient
+
+SPEC CHECKSUMS:
+  MQTTClient: 2842bdeab5a65eec75e0fcbbbd2a300946690fee
+
+PODFILE CHECKSUM: 7bfe60bf86948b865f615ba1eab3934bf263345d
+
+COCOAPODS: 1.2.0
